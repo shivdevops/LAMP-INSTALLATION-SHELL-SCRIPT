@@ -10,7 +10,7 @@ echo
 	echo "INSTALLING apache2"
 echo
 echo
-        echo "Y" | apt install apache2
+         apt install apache2 -y
 echo
 echo
         ufw app info "Apache Full"
@@ -40,7 +40,7 @@ echo
         echo "INSTALLING php"
 echo
 echo
-        echo "Y" | apt install php libapache2-mod-php php-mysql
+         apt install php libapache2-mod-php php-mysql -y
 	
 	sed -i '2d' /etc/apache2/mods-enabled/dir.conf
 	sed -i '2iDirectoryIndex index.php index.cgi index.pl index.html index.xhtml index.htm' /etc/apache2/mods-enabled/dir.conf
@@ -68,7 +68,7 @@ echo
 	echo "INSTALLING mysql";
 echo
 echo
-	echo "Y" | apt install mysql-server
+	 apt install mysql-server -y
 
 
 echo
