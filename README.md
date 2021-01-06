@@ -1,16 +1,17 @@
 # LAMP Installation, Apache2, Mysql and apache2 shell script fot ubuntu OS's.
 
-Installation script for LAMP current versions of apache2, mysql and php for linux ubuntu. 
+**Installation script for LAMP current versions of apache2, mysql and php for linux ubuntu.** 
 
   * Download the script.
+  
+  * change the file permission with 777.
+  
+      ` ` ` sudo chmod 777 lamp.sh ` ` `
 
   * Run the script with sudo.  
      
       ` ` ` sudo ./lamp.sh ` ` `
 
-  * change the file permission with 777.
-  
-      ` ` ` sudo chmod 777 lamp.sh ` ` `
     
   ## Prerequiste:
         
