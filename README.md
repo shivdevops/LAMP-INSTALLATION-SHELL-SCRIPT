@@ -15,11 +15,11 @@
     
   ## Prerequiste:
         
-        * Ubuntu OS.
+   * Ubuntu OS.
 
   ## Note:
 
-   * You can provide your own mysql root password by changing the default password "password" provided in this shell script lamp.sh-line no:104
+   You can provide your own mysql root password by changing the default password "password" provided in this shell script lamp.sh-line no:104
 
-        ` ` ` ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'your-password'; ` ` ` 
+   ` ` ` ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'your-password'; ` ` ` 
  
